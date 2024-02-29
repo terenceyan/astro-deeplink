@@ -3,36 +3,26 @@ import Layout from '../components/Layout.astro';
 import badgeImageReference from '../badge.svg';
 ---
 
-<Layout title="Deep Link Quick Test">
+<Layout title="Redirect link test">
 	<main>
     <div id="content">
       <div class="header">
-        <h1>Deep Link Quick Test</h1>
+        <h1>Link Quick Test</h1>
         <div class="logo">
           <img src="/pin_shoppingbag.png" alt="Pinterest plus shopping bag icon">
         </div>
         <h2>
-          This is a quick test site of Pinterest shopping in-app browser deep-link closing protocol.
+          This is a quick test site for product destination link redirects.
         </h2>
-        <div class="bttns">
-          <a href="pinterest://checkoutPaymentNotify?event=close&amp;source=walmart" class="bttn primary">Close Pinterest Shopping Browser</a>
-        </div>
       </div>
 			<div class="resource-list">
         <ul>
           <li>
-            <a href="https://business.pinterest.com/sk/blog/new-tools-for-shopify-merchants-on-pinterest/">Pinterest: Introducing Hosted Checkout</a>
-					</li>
-          <li>
             <a href="https://business.pinterest.com/en-ca/shopping/">Pinterest Shopping</a>
-          </li>
-          <li>
-            <a href="https://help.pinterest.com/en/business/article/shopping-on-pinterest">Shopping on Pinterest Help</a>
           </li>
         </ul>
       </div>
       <footer class="footer">
-        <div><a href="https://developers.pinterest.com/"><img src={badgeImageReference} alt="Pinterest Logo" /></a></div><div>&copy; 2022 Pinterest</div>
       </footer>
     </div>
 	</main>
